@@ -1,0 +1,67 @@
+.linguagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+}
+
+.linguagens img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+    
+
+.botaoprosseguir{
+    background-color: #8039f5;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botaoprosseguir:hover {
+    background-color: #6424d6;
+    transform: scale(1.05);
+}
+.nomeroxo {
+    color: #8039f5;
+}
+
+h1{
+    font-size: 60px;
+}
+
+.textosbrancos {
+    color: white;
+    background-color: #15171C;
+    padding: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: -20px;
+    border-radius: 15px;
+}
+
+.logo {
+    background-color: #8039f5;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
